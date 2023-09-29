@@ -6,6 +6,9 @@ import config from '../config/config';
 
 const dbOption = config().database;
 const appOption = config().app;
+
+console.log('here__________', dbOption, appOption);
+
 const { exit } = process;
 const env = appOption.env || 'development';
 let path = resolve(__dirname, `../../.env.${appOption.env}.local`);

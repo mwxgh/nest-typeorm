@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "cockroachdb",
+        "Fastify",
         "nestjs",
         "typeorm"
     ]

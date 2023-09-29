@@ -22,13 +22,19 @@
     "cli:create:db": "ts-node ./src/commands/create-database.command.ts"
   },
   "dependencies": {
+    "@fastify/multipart": "^8.0.0",
     "@nestjs/common": "^10.2.6",
     "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^10.2.6",
     "@nestjs/jwt": "^10.1.1",
     "@nestjs/platform-express": "^10.2.6",
+    "@nestjs/platform-fastify": "^10.2.6",
+    "@nestjs/swagger": "^7.1.12",
+    "@nestjs/typeorm": "^10.0.0",
+    "nest-winston": "^1.9.4",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "winston": "^3.10.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.1.18",
